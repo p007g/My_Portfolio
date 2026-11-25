@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Paras Goyal — Data Engineer focused on Python, SQL, ETL pipelines and production automation.">
+<meta name="theme-color" content="#101a1b">
+<title>Paras Goyal — Data Engineer</title>
+<style>
+:root{--bg:#0b1214;--panel:#111d20;--panel2:#152326;--text:#edf5f2;--muted:#9aadaa;--line:#263638;--accent:#83e0bd;--accent2:#c6f3df;--shadow:0 24px 70px rgba(0,0,0,.25)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 75% 0%,rgba(65,137,117,.14),transparent 38%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}.wrap{width:min(1120px,calc(100% - 44px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.07)}.brand{font-weight:800;letter-spacing:.04em}.brand span{color:var(--accent)}.navlinks{display:flex;gap:28px;color:var(--muted);font-size:14px}.navright{display:flex;align-items:center;gap:16px}.pill{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:99px;padding:10px 16px;font-size:13px;color:var(--accent2);background:rgba(131,224,189,.06)}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px rgba(131,224,189,.1)}.hero{padding:94px 0 78px;display:grid;grid-template-columns:1.35fr .65fr;gap:70px;align-items:center}.eyebrow{color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.18em;font-weight:800}.hero h1{font-size:clamp(44px,7vw,76px);line-height:1.04;letter-spacing:-.055em;margin:20px 0 18px}.hero h1 em{font-style:normal;color:var(--accent)}.lead{font-size:18px;color:#bdcbc7;max-width:650px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:8px;font-weight:700;font-size:14px;border:1px solid var(--line);transition:.2s}.btn.primary{background:var(--accent);color:#10201b;border-color:var(--accent)}.btn:hover{transform:translateY(-2px)}.hero-card{padding:27px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,rgba(21,35,38,.95),rgba(13,24,26,.9));box-shadow:var(--shadow);position:relative;overflow:hidden}.hero-card:before{content:"";position:absolute;width:180px;height:180px;border-radius:50%;background:rgba(131,224,189,.09);filter:blur(2px);right:-70px;top:-80px}.monogram{width:76px;height:76px;border-radius:20px;display:grid;place-items:center;background:linear-gradient(135deg,#9ce8c9,#397e68);color:#0b1b15;font-size:27px;font-weight:900;letter-spacing:-.06em;margin-bottom:22px}.hero-card h3{margin:0 0 5px;font-size:20px}.muted{color:var(--muted)}.mini-line{height:1px;background:var(--line);margin:22px 0}.quick{display:flex;justify-content:space-between;gap:15px;font-size:13px;margin:12px 0}.quick strong{color:var(--accent2);font-weight:600;text-align:right}.section{padding:74px 0;border-top:1px solid rgba(255,255,255,.07)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:32px}.section h2{font-size:clamp(29px,4vw,42px);letter-spacing:-.04em;line-height:1.15;margin:9px 0}.section-intro{color:var(--muted);max-width:510px;margin:0}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.metric{padding:22px;border:1px solid var(--line);border-radius:13px;background:rgba(17,29,32,.72)}.metric strong{display:block;color:var(--accent);font-size:34px;letter-spacing:-.05em;line-height:1.1}.metric span{display:block;color:var(--muted);font-size:13px;margin-top:8px}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px}.about-copy{font-size:17px;color:#c2ceca}.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.tag{border:1px solid var(--line);background:var(--panel);border-radius:7px;padding:7px 11px;font-size:13px;color:#cbd8d3}.skill-groups{display:grid;gap:14px}.skill{padding:18px 20px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.skill h3{font-size:15px;margin:0 0 10px;color:var(--accent2)}.skill p{margin:0;color:var(--muted);font-size:14px}.timeline{display:grid;gap:15px}.job{display:grid;grid-template-columns:190px 1fr;gap:28px;padding:24px;border:1px solid var(--line);border-radius:13px;background:rgba(17,29,32,.7)}.date{font-size:13px;color:var(--accent);font-weight:700}.place{font-size:13px;color:var(--muted);margin-top:5px}.job h3{margin:0;font-size:19px}.job .company{color:var(--muted);font-size:14px;margin:2px 0 12px}.job ul{margin:0;padding-left:19px;color:#bdc9c5;font-size:14px}.job li{padding:3px 0}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.project{padding:22px;border:1px solid var(--line);border-radius:13px;background:linear-gradient(155deg,var(--panel),#0e191b);display:flex;flex-direction:column;min-height:230px}.project .type{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:800}.project h3{font-size:18px;line-height:1.3;margin:13px 0 8px}.project p{font-size:14px;color:var(--muted);margin:0 0 22px}.project a{margin-top:auto;color:var(--accent2);font-size:13px;font-weight:700}.education{padding:23px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}.education h3{margin:0 0 4px}.education p{margin:0;color:var(--muted);font-size:14px}.contact{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:34px;border:1px solid rgba(131,224,189,.25);border-radius:17px;background:linear-gradient(120deg,rgba(131,224,189,.09),rgba(17,29,32,.9))}.contact h2{margin:7px 0 8px}.contact p{margin:0;color:var(--muted)}footer{padding:30px 0;color:#71817c;font-size:12px;display:flex;justify-content:space-between;gap:15px}.social{display:flex;gap:18px;color:var(--muted);font-size:13px}.smallnote{font-size:12px;color:#72827e;margin-top:14px}
+@media(max-width:800px){.hero{grid-template-columns:1fr;gap:32px;padding:65px 0}.hero-card{max-width:460px}.metrics{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr;gap:25px}.project-grid{grid-template-columns:1fr 1fr}.job{grid-template-columns:1fr;gap:10px}.section-head{display:block}.section-intro{margin-top:12px}.contact{display:block}.contact .btn{margin-top:20px}}
+@media(max-width:560px){.wrap{width:min(100% - 30px,1120px)}.navlinks{display:none}.nav{height:65px}.hero h1{font-size:48px}.project-grid{grid-template-columns:1fr}.metrics{gap:9px}.metric{padding:17px}.metric strong{font-size:29px}.section{padding:55px 0}.contact{padding:24px}footer{display:block}.social{margin-top:12px}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#top">PARAS<span>.</span></a>
+  <nav class="navlinks" aria-label="Main navigation">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Selected work</a><a href="#skills">Skills</a>
+  </nav>
+  <div class="navright"><a class="pill" href="mailto:pr.gy01@gmail.com"><span class="dot"></span> Open to conversations</a></div>
+</header>
+<main id="top">
+<section class="wrap hero">
+  <div>
+    <div class="eyebrow">Data engineering · Automation · Analytics</div>
+    <h1>Hi, I'm<br><em>Paras Goyal.</em></h1>
+    <p class="lead">I build dependable data workflows that turn repetitive operations into reliable, measurable systems — using Python, SQL, ETL pipelines and production automation.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:pr.gy01@gmail.com">Get in touch ↗</a>
+      <a class="btn" href="https://www.linkedin.com/in/paras-goyal01/" target="_blank" rel="noreferrer">LinkedIn profile ↗</a>
+      <a class="btn" href="https://github.com/p007g" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </div>
+  </div>
+  <aside class="hero-card">
+    <div class="monogram">PG</div>
+    <h3>Paras Goyal</h3>
+    <div class="muted">Data Science Engineer · Data Engineering focus</div>
+    <div class="mini-line"></div>
+    <div class="quick"><span class="muted">Based in</span><strong>Gurugram, India</strong></div>
+    <div class="quick"><span class="muted">Current role</span><strong>ADGLOBAL360</strong></div>
+    <div class="quick"><span class="muted">Core stack</span><strong>Python · SQL · PostgreSQL</strong></div>
+    <div class="quick"><span class="muted">Education</span><strong>B.Tech, EEE</strong></div>
+  </aside>
+</section>
+
+<section class="section">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Impact at a glance</div><h2>Outcomes over busywork.</h2></div><p class="section-intro">A few measurable outcomes from production automation and operational data workflows described in my experience.</p></div>
+  <div class="metrics">
+    <div class="metric"><strong>99%</strong><span>Process automation achieved</span></div>
+    <div class="metric"><strong>90%</strong><span>Reduction in manual effort / cost overhead</span></div>
+    <div class="metric"><strong>70%</strong><span>Faster operational turnaround</span></div>
+    <div class="metric"><strong>5+</strong><span>Enterprise platforms supported</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="about">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">A little about me</div><h2>Practical engineering.<br>Measurable outcomes.</h2></div></div>
+  <div class="about-grid">
+    <div class="about-copy">
+      <p>I'm a Data Science Engineer with hands-on experience building Python-based data automation, ETL pipelines, cloud workflows and data-driven operational systems.</p>
+      <p>My work spans extracting and validating data, integrating APIs and databases, scheduling recurring jobs, monitoring production processes, and troubleshooting reliability issues. I enjoy translating business requirements into systems that are easier to operate and scale.</p>
+      <p>My strongest day-to-day tools are Python, SQL, PostgreSQL and the data ecosystem around them.</p>
+    </div>
+    <div class="skill-groups" id="skills">
+      <div class="skill"><h3>Programming & databases</h3><p>Python · SQL · PostgreSQL · MySQL · ClickHouse · Pandas · NumPy · Selenium · Requests · Boto3 · Beautiful Soup</p></div>
+      <div class="skill"><h3>Data engineering</h3><p>ETL pipelines · RPA automation · Cron scheduling · Web scraping · Workflow orchestration · API integration · Data validation</p></div>
+      <div class="skill"><h3>Platforms & tools</h3><p>Apache Airflow · PySpark · Ubuntu Server · Git · GitHub · AWS S3, EC2, Lambda, Secrets Manager, Athena</p></div>
+    </div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="experience">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Career journey</div><h2>Experience</h2></div><p class="section-intro">Building from software foundations into data operations, automation and engineering.</p></div>
+  <div class="timeline">
+    <article class="job">
+      <div><div class="date">Jan 2025 — Present</div><div class="place">Gurugram, Haryana</div></div>
+      <div><h3>Data Science Engineer</h3><div class="company">ADGLOBAL360 India Pvt Ltd</div><ul>
+        <li>Designed and deployed Python data automation/RPA pipelines across 5+ platforms including Flipkart, Amazon, Zepto, Blinkit, Instamart and Noon.</li>
+        <li>Built production ETL and workflow automation using PostgreSQL, SQL, Pandas and APIs, with scheduled execution and monitoring on Ubuntu servers.</li>
+        <li>Engineered cron-based automation running every five minutes, contributing to 99% process automation and continuous operational monitoring.</li>
+        <li>Integrated AWS services for secure cloud workflows; developed a one-click execution framework that reduced turnaround time by 70% and manual cost overhead by 90%.</li>
+        <li>Worked on data validation, pipeline troubleshooting, schema/data-type issues, error handling and production reliability.</li>
+      </ul></div>
+    </article>
+    <article class="job">
+      <div><div class="date">Jul 2024 — Oct 2024</div><div class="place">Gurugram, Haryana</div></div>
+      <div><h3>Software Support Analyst</h3><div class="company">Accenture Pvt Ltd</div><ul>
+        <li>Managed a Google hardware asset database using SQL and Excel, improving data retrieval efficiency by 30%.</li>
+        <li>Resolved 1,200+ asset-related tickets monthly through ServiceNow with 98% satisfaction.</li>
+        <li>Generated analytical reports that contributed to a 15% reduction in asset misallocation.</li>
+      </ul></div>
+    </article>
+    <article class="job">
+      <div><div class="date">Dec 2023 — Jun 2024</div><div class="place">Noida, Uttar Pradesh</div></div>
+      <div><h3>Data Manager</h3><div class="company">BharatTech Pvt Ltd</div><ul>
+        <li>Automated data extraction with Python, increasing efficiency by 40%.</li>
+        <li>Reduced manual processing time by 35% through custom data scripts and delivered cross-functional insights.</li>
+      </ul></div>
+    </article>
+    <article class="job">
+      <div><div class="date">Feb 2022 — Sep 2023</div><div class="place">Chandigarh</div></div>
+      <div><h3>System Engineer</h3><div class="company">Infosys Ltd</div><ul>
+        <li>Built foundational skills in Python, MySQL, HTML, CSS and Git.</li>
+        <li>Delivered projects with 100% client satisfaction.</li>
+      </ul></div>
+    </article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="work">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Projects & explorations</h2></div><p class="section-intro">A selection of public repositories and projects listed on my GitHub and LinkedIn profiles.</p></div>
+  <div class="project-grid">
+    <article class="project"><div class="type">Python · Data analysis</div><h3>Diwali Sales Analysis</h3><p>Exploratory analysis of sales data using Python libraries, presented as a public Jupyter Notebook repository.</p><a href="https://github.com/p007g/diwali_sales_analysis_pythonLib" target="_blank" rel="noreferrer">View repository ↗</a></article>
+    <article class="project"><div class="type">SQL · Business analysis</div><h3>Music Store Analysis</h3><p>SQL analysis of an online music playlist database to explore business performance and sales opportunities.</p><a href="https://github.com/p007g/SQL_PROJECT-Music_Store_Analysis-" target="_blank" rel="noreferrer">View repository ↗</a></article>
+    <article class="project"><div class="type">Python · Web scraping</div><h3>IMDb Top Rated Movies</h3><p>Scraped top-rated movie information from IMDb using Python, BeautifulSoup and Requests for further analysis.</p><a href="https://github.com/p007g/WebScrapping-ImdbTopRatedMovies" target="_blank" rel="noreferrer">View repository ↗</a></article>
+    <article class="project"><div class="type">Python · Data extraction</div><h3>CollegeDunia Data Extraction</h3><p>Data extraction project using Python libraries, also listed in my LinkedIn projects.</p><a href="https://github.com/p007g/Data_Extraction-for-business-intelligence" target="_blank" rel="noreferrer">View repository ↗</a></article>
+    <article class="project"><div class="type">Analytics · Capstone</div><h3>IBM Data Analyst Capstone</h3><p>Analysis workflow covering data preparation, statistical analysis, visualization and an analytical report, as listed on LinkedIn.</p><a href="https://www.linkedin.com/in/paras-goyal01/" target="_blank" rel="noreferrer">View LinkedIn ↗</a></article>
+    <article class="project"><div class="type">Python · Pygame</div><h3>Alien Invasion</h3><p>A Python game project using Pygame and related tools, available among my public GitHub repositories.</p><a href="https://github.com/p007g/A_Game_with_PYHTON-The_Alien_Invasion" target="_blank" rel="noreferrer">View repository ↗</a></article>
+  </div>
+  <p class="smallnote">Project descriptions are concise summaries of the public profile/repository information; open each repository for implementation details.</p>
+ </div>
+</section>
+
+<section class="section">
+ <div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Education</div><h2>Academic foundation</h2></div></div>
+  <div class="education"><h3>Bachelor of Technology — Electrical & Electronics</h3><p>Galgotia College of Engineering and Technology · 2016–2020 · Greater Noida, Uttar Pradesh</p></div>
+ </div>
+</section>
+
+<section class="section" id="contact">
+ <div class="wrap">
+  <div class="contact"><div><div class="eyebrow">Have a data challenge?</div><h2>Let's build something reliable.</h2><p>For data engineering, automation and analytics opportunities, feel free to reach out.</p></div><a class="btn primary" href="mailto:pr.gy01@gmail.com">Email Paras ↗</a></div>
+ </div>
+</section>
+</main>
+<footer class="wrap"><span>© <span id="year"></span> Paras Goyal · Built to showcase my work</span><div class="social"><a href="mailto:pr.gy01@gmail.com">Email</a><a href="https://www.linkedin.com/in/paras-goyal01/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/p007g" target="_blank" rel="noreferrer">GitHub</a></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
